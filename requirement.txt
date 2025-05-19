@@ -1,0 +1,7 @@
+gymnasium
+box2D
+torch
+torchvision
+torchaudio
+numpy
+cv2
