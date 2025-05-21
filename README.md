@@ -8,7 +8,6 @@
 * 2\. [ Usage 🔑](#Usage)
   * 2.1. [Installation](#Dependency)
   * 2.2. [To run CarRacingv3](#TorunCarRacing)
-  * 2.3. [Simple steps to apply our codes to your problem](#Simplestepstoapply)
 * 3\. [ Acknowledgments 🫡](#Acknowledgments)
 
 
@@ -69,15 +68,9 @@ In case you want to try our results:
 python PPO/main.py
 ```
 
-####  2.3. <a name='Simplestepstoapply'></a>Simple steps to apply our codes to your problem
-
-- Since this project only focus on solving CarRacing environment, you will want to remove "action_low" and "action_high" in `./{algorithms}/agent.py`.
-However, this feature is still in construction and not our main goals for the capstone project.
-
-
 
 ##  3. <a name='Acknowledgments'></a> Acknowledgments 🫡
-I - [Nguyen Viet Anh](https://github.com/Vanh41) am very grateful to work with [Pham Duc Cuong](https://github.com/phamducuong05), [Cao Chi Cuong](https://github.com/cuongdztop1tg), [Nguyen Tuan Duc](https://github.com/ducer37), and [Trinh Hong Anh](https://www.facebook.com/honganhtrinh.2112) as a team, we have learned a lot and have many valuable discussions.
+We are very grateful to work with [Nguyen Viet Anh](https://github.com/Vanh41), [Pham Duc Cuong](https://github.com/phamducuong05), [Cao Chi Cuong](https://github.com/cuongdztop1tg), [Nguyen Tuan Duc](https://github.com/ducer37), and [Trinh Hong Anh](https://www.facebook.com/honganhtrinh.2112) as a team, we have learned a lot and have many valuable discussions. Thank you Pham Duc Cuong, Nguyen Tuan Duc for the implementation of DQN, Cao Chi Cuong, Trinh Hong Anh with A2C and Nguyen Viet Anh with PPO. This project was carried out as part of the Introduction to Artificial Intelligence course, with the guidance and supervision of Professor Than Quang Khoat. 
 
 Also, our work is built upon the following links:
 - [Gymnasium Documentation](https://gymnasium.farama.org/index.html)
