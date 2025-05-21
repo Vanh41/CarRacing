@@ -29,7 +29,7 @@ algorithms within the CarRacing-v3 environment
 
 ##  2. <a name='Usage'></a> Usage 🔑
 
-- Weights and results are saved in `.{algorithms}/working` by default.
+- Weights and results are saved in `.{algorithms}/results` by default.
 
 ####  2.1. <a name='Dependency'></a>Installation
 
@@ -40,7 +40,7 @@ algorithms within the CarRacing-v3 environment
 After cloning the repo, you can install dependencies locally on Python>=3.11 as follows:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 or you can install all these packages with up-to-date versions:
