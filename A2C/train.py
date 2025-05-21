@@ -12,9 +12,7 @@ from util import fix_random_seeds, play
 
 
 def calculate_discounted_returns(b_rewards, discount_factor):
-    discounted_returns = np.zeros_like(
-        b_rewards, dtype=np.float32
-    )  # Khởi tạo bằng float32
+    discounted_returns = np.zeros_like(b_rewards, dtype=np.float32)  
     running_add = 0
     for i in reversed(range(b_rewards.shape[0])):
         running_add = b_rewards[i] + discount_factor * running_add
@@ -165,7 +163,7 @@ def train(
             # Store checkpoint periodically
             if (episode + 1) % 100 == 0:
                 ckpt_path = (
-                    f"A2C\\results\\model_a2c\\a2c_checkpoint_{episode + 1:04d}.pt"
+                    f"A2C/results/model_a2c/a2c_checkpoint_{episode + 1:04d}.pt"
                 )
                 print(f"Saving checkpoint to {ckpt_path}... ", flush=True)
                 torch.save(
