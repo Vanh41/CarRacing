@@ -10,7 +10,7 @@ from util import save_gif
 
 
 def main():
-    model_dir = "A2C/results/model_a2c"
+    model_dir = "CarRacing/A2C/results/model_a2c"
     env_id = "CarRacing-v3"
     eval_seed = 315
     num_eval_tracks = 50

@@ -29,7 +29,7 @@ total_steps = 0
 score_history = []         
 avg_score_history = []
 
-MODEL_PATH = 'DQN/results64/policy_net_trained.pth' 
+MODEL_PATH = 'CarRacing/DQN/results64/policy_net_trained.pth' 
 env = gym.make('CarRacing-v3', continuous=False, domain_randomize=False, render_mode='human')
 dummy_state, _ = env.reset()
 initial_stacked_state = stack_frames(dummy_state, is_new_episode=True)

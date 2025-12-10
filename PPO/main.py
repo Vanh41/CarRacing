@@ -15,7 +15,7 @@ from utils.preprocessing import stack_frames, frame_stack_size
 ENV_NAME = 'CarRacing-v3'
 CONTINUOUS_ACTIONS = True
 LOAD_CHECKPOINT = True
-LOAD_PREFIX = 'PPO/resultNotLRdecay/ppo_carracing_best_avg'
+LOAD_PREFIX = 'CarRacing/PPO/resultNotLRdecay/ppo_carracing_best_avg'
 
 N = 4096
 BATCH_SIZE = 128 
